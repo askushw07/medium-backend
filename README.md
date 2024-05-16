@@ -54,7 +54,7 @@ DATABASE_URL=your_postgres_database_url
 add these line in wrangler.toml file
 ```bash
 DATABASE_URL=your_prisma accelerate url
-jwt_secerete
+jwt_secerete```
 
 
 you can use above secrete in c.process.secreteName
