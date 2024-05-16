@@ -38,23 +38,24 @@ Welcome to the backend API for a robust blogging website, built with a focus on 
     * A Cloudflare account with Worker functionality enabled
 2. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/askushw07/medium-backend.git](https://github.com/askushw07/medium-backend.git)```
+   git clone [https://github.com/askushw07/medium-backend.git](https://github.com/askushw07/medium-backend.git)
 
 3. **Install Dependencies:**
    ```bash
   cd medium-backend
-  npm install```
+  npm install
 
 4. **Configure Environment Variables:**
 Create a .env file in the project root directory.
 Add required environment variables, such as:
-```DATABASE_URL=your_postgres_database_url```
+```bash
+DATABASE_URL=your_postgres_database_url
 
 add these line in wrangler.toml file
-```
+```bash
 DATABASE_URL=your_prisma accelerate url
 jwt_secerete
-```
+
 
 you can use above secrete in c.process.secreteName
 
